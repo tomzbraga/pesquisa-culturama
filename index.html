@@ -54,6 +54,108 @@
             <br>
           
           </fieldset>
+
+          <fieldset>
+
+            <legend>Perfil</legend>
+            
+            <p>Gênero:</p>
+            
+            <input type="radio" name="userGender" value="Masculino">
+            <label for="userGender">Masculino</label>
+
+            <input type="radio" name="userGender" value="Feminino">
+            <label for="userGender">Feminino</label>
+
+            <input type="radio" name="userGender" value="notInformed">
+            <label for="userGender">Prefiro não informar</label>
+
+            <br>
+
+            <label for="maritalStatus">Estado civil:</label>
+            <select name="maritalStatus">
+
+              <option value="notInformed">Selecione...</option>
+              <option value="solteiro">Solteiro</option>
+              <option value="casado">Casado</option>
+              <option value="divorciado">Divorciado</option>
+              <option value="uniaoEstavel">União estável</option>
+              
+
+            </select>
+
+            <br>
+
+            
+            <label for="userState">Estado</label>
+            
+            <select name="userState" required>
+            
+              <option value="notInformed">Selecione...</option>
+              <option value="acre">Acre (AC)</option>  
+              <option value="alagoas">Alagoas (AL)</option>  
+              <option value="amapá">Amapá (AP)</option>  
+              <option value="amazonas">Amazonas (AM)</option>  
+              <option value="bahia">Bahia (BA)</option>  
+              <option value="ceara">Ceará (CE)</option>  
+              <option value="distritoFederal">Distrito Federal (DF)</option>  
+              <option value="espiritoSanto">Espírito Santo (ES)</option>  
+              <option value="goiis">Goiás (GO)</option>  
+              <option value="maranhao">Maranhão (MA)</option>  
+              <option value="matoGrosso">Mato Grosso (MT)</option>  
+              <option value="matoGrossoDoSul">Mato Grosso do Sul (MS)</option>  
+              <option value="minasGerais">Minas Gerais (MG)</option>  
+              <option value="para">Pará (PA)</option>  
+              <option value="paraiba">Paraíba (PB)</option>  
+              <option value="parana">Paraná (PR)</option>  
+              <option value="pernambuco">Pernambuco (PE)</option>  
+              <option value="piaui">Piauí (PI)</option>  
+              <option value="rioDeJaneiro">Rio de Janeiro (RJ)</option>  
+              <option value="rioGrandeDoNorte">Rio Grande do Norte (RN)</option>  
+              <option value="rioGrandeDoSul">Rio Grande do Sul (RS)</option> 
+              <option value="rondonia">Rondônia (RO)</option>  
+              <option value="roraima">Roraima (RR)</option>  
+              <option value="santaCatarina">Santa Catarina (SC)</option>  
+              <option value="saoPaulo">São Paulo (SP)</option>  
+              <option value="sergipe">Sergipe (SE)</option>  
+              <option value="tocantins">Tocantins (TO)</option>  
+
+            </select>
+
+            <br>
+
+            <label for="userCity">Cidade:</label>
+            <input type="text" name="userCity">
+
+          </fieldset>
+
+          <fieldset>
+
+            <legend>Hábitos</legend>
+
+            <p>Redes Sociais</p>
+
+            <input type="checkbox" name="social" value="instagram">
+            <label for="social">Instagram</label>
+            
+            <br>
+
+            <input type="checkbox" name="social" value="facebook">
+            <label for="social">Facebook</label>
+
+            <br>
+
+            <input type="checkbox" name="social" value="linkedin">
+            <label for="social">LinkedIn</label>
+            
+            <br>
+
+            <input type="checkbox" name="social" value="x">
+            <label for="social">X</label>
+            
+            <br>
+
+          </fieldset>
             
             <button type="submit">Enviar</button>
 
