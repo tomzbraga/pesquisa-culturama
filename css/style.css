@@ -13,6 +13,11 @@ h1 {
   font-family: "Fjalla One", sans-serif;;
 }
 
+p {
+  margin-bottom: 15px;  
+  font-weight: bold;
+}
+
 main {
   width: 100%;
   max-width: 700px;
@@ -68,4 +73,39 @@ input[type="checkbox"] {
 input[type="color"] {
   width: 40px;
   padding: 0 5px;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+button[type="submit"] {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+  background-color: blue;
+    color: white;
+}
+
+button[type="reset"] {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+button[type="reset"]:hover {
+  background-color: gray;
+  color: white;
 }
